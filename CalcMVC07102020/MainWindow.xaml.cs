@@ -103,6 +103,12 @@ namespace MVC_Calc
                 case "tan":
                     result = Math.Tan(num1);
                     break;
+                case "log":
+                    result = Math.Log10(num1);
+                    break;
+                case "ln":
+                    result = Math.Log(num1);
+                    break;
                 default:
                     break;
             }
@@ -196,6 +202,18 @@ namespace MVC_Calc
         private void TanButton_Click(object sender, RoutedEventArgs e)
         {
             Znak.Text = "tan";
+            Validate();
+        }
+
+        private void LogButton_Click(object sender, RoutedEventArgs e)
+        {
+            Znak.Text = "log";
+            Validate();
+        }
+
+        private void LnButton_Click(object sender, RoutedEventArgs e)
+        {
+            Znak.Text = "ln";
             Validate();
         }
     }

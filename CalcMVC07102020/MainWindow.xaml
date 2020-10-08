@@ -30,5 +30,7 @@
         <Button Content="sin" x:Name="SinButton" Click="SinButton_Click" Margin="338,89,0,0" Width="119" HorizontalAlignment="Left" Height="22" VerticalAlignment="Top"/>
         <Button Content="cos" x:Name="CosButton" Click="CosButton_Click" Margin="338,120,0,0" Width="119" HorizontalAlignment="Left" RenderTransformOrigin="0.5,0.5" Height="22" VerticalAlignment="Top"/>
         <Button Content="tan" x:Name="TanButton" Click="TanButton_Click" Margin="338,153,0,0" Width="119" HorizontalAlignment="Left" Height="22" VerticalAlignment="Top"/>
+        <Button Content="log" x:Name="LogButton" Click="LogButton_Click" Margin="338,185,0,0" Width="119" HorizontalAlignment="Left" Height="22" VerticalAlignment="Top"/>
+        <Button Content="ln" x:Name="LnButton_Copy" Click="LnButton_Click" Margin="338,217,0,0" Width="119" HorizontalAlignment="Left" Height="22" VerticalAlignment="Top"/>
     </Grid>
 </Window>
